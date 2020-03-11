@@ -1,0 +1,9 @@
+Mapped by: Dustin Carlino
+Date: 03/10/2020
+Time: 7:33 PM
+
+Walk buttons:
+- Didn't map yet
+
+Notes:
+- Only observed one cycle, so timing might be wrong

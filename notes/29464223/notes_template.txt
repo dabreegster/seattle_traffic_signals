@@ -1,0 +1,10 @@
+Mapped by: Dustin Carlino
+Date: 03/10/2020
+Time: 7:37 PM
+
+Walk buttons:
+- Didn't map yet
+
+Notes:
+- Didn't time phases yet
+- Complicated intersection with pedestrian islands, diagram is simplified
