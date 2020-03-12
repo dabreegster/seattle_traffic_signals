@@ -28,7 +28,8 @@ pub struct Phase {
 
 /// A movement through an intersection.
 ///
-/// TODO Diagram of the 4 crosswalk cases.
+/// Movements over crosswalks are a little confusing to understand. See the crosswalk_turns.png
+/// diagram in this repository for some clarification.
 #[derive(Serialize, Deserialize, Clone, Debug, PartialEq, Eq, PartialOrd, Ord)]
 pub struct Turn {
     /// The movement begins at the end of this road segment.
