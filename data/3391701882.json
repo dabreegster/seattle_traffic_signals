@@ -5,6 +5,28 @@
       "protected_turns": [
         {
           "from": {
+            "osm_way_id": 332060260,
+            "osm_node1": 29464223,
+            "osm_node2": 3391701882,
+            "is_forwards": true
+          },
+          "to": {
+            "osm_way_id": 332060263,
+            "osm_node1": 3391701882,
+            "osm_node2": 3391701880,
+            "is_forwards": true
+          },
+          "intersection_osm_node_id": 3391701882,
+          "is_crosswalk": false
+        }
+      ],
+      "permitted_turns": [],
+      "duration_seconds": 30
+    },
+    {
+      "protected_turns": [
+        {
+          "from": {
             "osm_way_id": 607798222,
             "osm_node1": 720880672,
             "osm_node2": 3391701882,
@@ -21,7 +43,7 @@
         }
       ],
       "permitted_turns": [],
-      "duration_seconds": 30
+      "duration_seconds": 15
     },
     {
       "protected_turns": [
@@ -42,7 +64,11 @@
           "is_crosswalk": false
         }
       ],
-      "permitted_turns": [
+      "permitted_turns": [],
+      "duration_seconds": 15
+    },
+    {
+      "protected_turns": [
         {
           "from": {
             "osm_way_id": 332060260,
@@ -60,7 +86,8 @@
           "is_crosswalk": false
         }
       ],
-      "duration_seconds": 30
+      "permitted_turns": [],
+      "duration_seconds": 15
     }
   ]
 }
