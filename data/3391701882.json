@@ -18,6 +18,38 @@
           },
           "intersection_osm_node_id": 3391701882,
           "is_crosswalk": false
+        },
+        {
+          "from": {
+            "osm_way_id": 332060260,
+            "osm_node1": 29464223,
+            "osm_node2": 3391701882,
+            "is_forwards": true
+          },
+          "to": {
+            "osm_way_id": 332060263,
+            "osm_node1": 3391701882,
+            "osm_node2": 3391701880,
+            "is_forwards": true
+          },
+          "intersection_osm_node_id": 3391701882,
+          "is_crosswalk": true
+        },
+        {
+          "from": {
+            "osm_way_id": 332060263,
+            "osm_node1": 3391701882,
+            "osm_node2": 3391701880,
+            "is_forwards": true
+          },
+          "to": {
+            "osm_way_id": 332060260,
+            "osm_node1": 29464223,
+            "osm_node2": 3391701882,
+            "is_forwards": true
+          },
+          "intersection_osm_node_id": 3391701882,
+          "is_crosswalk": true
         }
       ],
       "permitted_turns": [],
@@ -62,6 +94,38 @@
           },
           "intersection_osm_node_id": 3391701882,
           "is_crosswalk": false
+        },
+        {
+          "from": {
+            "osm_way_id": 332060260,
+            "osm_node1": 29464223,
+            "osm_node2": 3391701882,
+            "is_forwards": true
+          },
+          "to": {
+            "osm_way_id": 332060263,
+            "osm_node1": 3391701882,
+            "osm_node2": 3391701880,
+            "is_forwards": true
+          },
+          "intersection_osm_node_id": 3391701882,
+          "is_crosswalk": true
+        },
+        {
+          "from": {
+            "osm_way_id": 332060263,
+            "osm_node1": 3391701882,
+            "osm_node2": 3391701880,
+            "is_forwards": true
+          },
+          "to": {
+            "osm_way_id": 332060260,
+            "osm_node1": 29464223,
+            "osm_node2": 3391701882,
+            "is_forwards": true
+          },
+          "intersection_osm_node_id": 3391701882,
+          "is_crosswalk": true
         }
       ],
       "permitted_turns": [],
