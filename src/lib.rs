@@ -23,7 +23,17 @@ pub struct Phase {
     /// oncoming traffic and crosswalks.
     pub permitted_turns: BTreeSet<Turn>,
     /// The phase lasts this long before moving to the next one.
-    pub duration_seconds: usize,
+    pub phase_type: PhaseType,
+}
+
+/// How long a phase lasts before moving to the next one.
+#[derive(Serialize, Deserialize, Clone, Debug)]
+pub enum PhaseType {
+    /// A fixed number of seconds.
+    Fixed(usize),
+    /// Some multiple of a fixed number of seconds. At the end of this phase, based on incoming
+    /// demand, this phase may repeat.
+    Adaptive(usize),
 }
 
 /// A movement through an intersection.

@@ -37,7 +37,9 @@
         }
       ],
       "permitted_turns": [],
-      "duration_seconds": 15
+      "phase_type": {
+        "Fixed": 15
+      }
     },
     {
       "protected_turns": [
@@ -204,7 +206,9 @@
           "is_crosswalk": false
         }
       ],
-      "duration_seconds": 114
+      "phase_type": {
+        "Fixed": 114
+      }
     },
     {
       "protected_turns": [
@@ -371,7 +375,9 @@
           "is_crosswalk": false
         }
       ],
-      "duration_seconds": 30
+      "phase_type": {
+        "Fixed": 30
+      }
     }
   ]
 }
