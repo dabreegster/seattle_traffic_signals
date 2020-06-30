@@ -1,8 +1,7 @@
 # Seattle traffic signal data
 
-This is a project to map Seattle's traffic signals in detail.
-
-TODO: Link to the design doc or include main points here.
+This is a project to map Seattle's traffic signals in detail. See [this
+doc](https://docs.google.com/document/d/1Od_7WvBVYsvpY4etRI0sKmYmZnwXMAXcJxVmm8Iwdcg/edit?usp=sharing).
 
 ## Contributing
 
