@@ -1,7 +1,7 @@
 use serde_derive::{Deserialize, Serialize};
 use std::collections::{BTreeMap, BTreeSet};
 
-#[derive(Serialize, Deserialize, Clone, Debug)]
+#[derive(Serialize, Deserialize, Clone, Debug, PartialEq)]
 pub struct TrafficSignal {
     /// The ID of the OSM node representing the intersection with the traffic signal. This node
     /// should be tagged `highway = traffic_signals` in OSM.
@@ -12,7 +12,7 @@ pub struct TrafficSignal {
 }
 
 /// A traffic signal is in one phase at any time. The phase describes what movements are possible.
-#[derive(Serialize, Deserialize, Clone, Debug)]
+#[derive(Serialize, Deserialize, Clone, Debug, PartialEq)]
 pub struct Phase {
     /// During this phase, these turns can be performed with the highest priority, protected by a
     /// green light. No two protected turns in the same phase should cross; that would be a
@@ -27,7 +27,7 @@ pub struct Phase {
 }
 
 /// How long a phase lasts before moving to the next one.
-#[derive(Serialize, Deserialize, Clone, Debug)]
+#[derive(Serialize, Deserialize, Clone, Debug, PartialEq)]
 pub enum PhaseType {
     /// A fixed number of seconds.
     Fixed(usize),
