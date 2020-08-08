@@ -13,3 +13,11 @@ public. Feel free to remain anonymous.
 
 The license is [ODbL](https://www.openstreetmap.org/copyright), the same as
 OpenStreetMap. There's no guarantee data here is correct; use it appropriately.
+
+## Notes
+
+Schema change to add a new field:
+
+```shell
+for x in data/*; do cat $x | jq '. + {offset_seconds: 0}' > tmp; mv -f tmp $x; done
+```

@@ -9,6 +9,8 @@ pub struct TrafficSignal {
     /// The traffic signal repeatedly cycles through these phases. During each phase, only some
     /// turns are protected and permitted through the intersection.
     pub phases: Vec<Phase>,
+    /// Relative to a central clock, delay the first phase by this many seconds.
+    pub offset_seconds: usize,
 }
 
 /// A traffic signal is in one phase at any time. The phase describes what movements are possible.
