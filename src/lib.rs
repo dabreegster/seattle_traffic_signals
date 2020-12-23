@@ -36,6 +36,13 @@ pub enum PhaseType {
     /// Some multiple of a fixed number of seconds. At the end of this phase, based on incoming
     /// demand, this phase may repeat.
     Adaptive(usize),
+    /// Minimum, Delay, Additional
+    /// Minimum is the minimum cycle duration, 0 allows it to be skipped if no demand.
+    /// Delay is the duration with no demand needed to end a cycle, 0 ends as soon as there is no demand.
+    /// Additional is the maximum additional duration for an extended cycle. If minimum is 20, and additional
+    /// is 40, the maximum cycle duration is 60.
+    /// If there are crosswalks, the minimum is the minimum for the maximum crosswalks
+    Variable(usize, usize, usize),
 }
 
 /// A movement through an intersection.
