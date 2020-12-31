@@ -1,5 +1,10 @@
 # Seattle traffic signal data
 
+**NOTICE**: This repository is archived, and the effort to manually survey
+around Seattle is on hold (it never really gained traction). The JSON data and
+schema are now maintained as part of [A/B
+Street](https://github.com/dabreegster/abstreet).
+
 This is a project to map Seattle's traffic signals in detail. See [this
 doc](https://docs.google.com/document/d/1Od_7WvBVYsvpY4etRI0sKmYmZnwXMAXcJxVmm8Iwdcg/edit?usp=sharing).
 
